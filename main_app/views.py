@@ -2,9 +2,14 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import ListView, DetailView # add these 
+from django.contrib.auth.views import LoginView
 
 from .models import Cat, Toy
 from .forms import FeedingForm # import the custom form we just made
+
+class Home(LoginView):
+   template_name = 'home.html'
+
 
 class ToyCreate(CreateView):
     model = Toy
