@@ -1,8 +1,8 @@
-# one-to-many starter code
+# auth starrter code
 
 how to use this starter code:
 
-1. git clone https://github.com/alexanderghose/catcollector-pt5-starter.git
+1. git clone https://github.com/alexanderghose/catcollector-pt6-auth-starter.git
 2. cd catcollector-pt5-starter
 3. pipenv shell
 4. pipenv install
